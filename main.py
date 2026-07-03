@@ -1,30 +1,3 @@
-"""
-Telegram Userbot - Auto Reply Bot (Hindi + English + Hinglish)
-Library: Telethon | Login: String Session (OTP sirf ek baar, phir kabhi nahi)
-
-SETUP:
-1. pip install telethon
-2. Get API_ID and API_HASH from https://my.telegram.org (API Development Tools)
-3. Sabse pehle generate_session.py chalayein (isi folder me hai) - yeh ek baar
-   OTP mangega aur ek STRING_SESSION print karega.
-4. Us string ko neeche STRING_SESSION variable me paste karein.
-5. Run: python main.py  --> ab kabhi OTP nahi manga jayega.
-
-FEATURES:
-- ~200 trigger phrases (Hindi/English/Hinglish) -> 200+ base replies -> expand
-  hokar hazaro variations
-- Mentions (@yourusername) pe bhi reply karega, chahe text kisi trigger se
-  match na ho
-- Agar koi aapke (userbot ke) bheje hue message ko reply kare, to uska bhi
-  reply karega
-- Bots (BotFather wale accounts) ko completely ignore karega
-- Per-chat cooldown taaki spam-jaisa na lage
-
-NOTE: Yeh ek USERBOT hai (personal account se chalta hai). Telegram ke ToS ke
-against mass auto-reply spam jaisa lag sakta hai aur account limited/banned ho
-sakta hai. Apne risk par use karein, cooldown zyada rakhein.
-"""
-
 import random
 import re
 import time
@@ -37,7 +10,7 @@ API_HASH = "your_api_hash_here"   # <-- apna API HASH daalein
 STRING_SESSION = ""               # <-- generate_session.py ka output yaha paste karein
 
 GROUPS_ONLY = True                # False karein agar DM me bhi reply chahiye
-COOLDOWN_SECONDS = 20             # same chat me itne second baad hi dobara reply
+COOLDOWN_SECONDS = 1             # same chat me itne second baad hi dobara reply
 # =============================================================================
 
 client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)

@@ -1,24 +1,3 @@
-"""
-Telegram Userbot - Scheduled Group Broadcaster
-Library: Telethon | Login: String Session (OTP sirf ek baar, phir kabhi nahi)
-
-Yeh bot koi bhi reply nahi karta - na kisi trigger word pe, na tag/mention pe,
-na DM pe. Yeh bas har INTERVAL_SECONDS (default 5 min) me userbot jin-jin
-groups ka member hai un sabme ek chota greeting ("Hi" / "Hello") bhej deta
-hai, lekin sirf START_HOUR se END_HOUR ke beech (default subah 7 se raat 11).
-
-SETUP:
-1. pip install -r requirements.txt
-2. generate_session.py chalakar STRING_SESSION banayein (ek hi baar OTP mangega)
-3. API_ID, API_HASH, STRING_SESSION Railway "Variables" tab me daalein
-4. Deploy karein
-
-NOTE: Yeh ek USERBOT hai (personal account se chalta hai). Bahut saare groups
-me automated repeated messages bhejna Telegram ke ToS ke against spam jaisa
-lag sakta hai aur account limited/banned ho sakta hai. Apne risk par use
-karein.
-"""
-
 import asyncio
 import os
 import random
@@ -42,7 +21,7 @@ GAP_BETWEEN_GROUPS = float(os.environ.get("GAP_BETWEEN_GROUPS", "2"))  # seconds
 
 client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
 
-MESSAGES = ["Hi", "Hello"]
+MESSAGES = ["muscular verse and topp here for chatting msgg me", "Hello"]
 
 
 def is_within_active_hours() -> bool:

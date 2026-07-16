@@ -27,7 +27,7 @@ DM_SENT_FILE = os.environ.get("DM_SENT_FILE", "dm_sent_users.json")
 
 client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
 
-MESSAGES = ["Hi muscularr guyy here for friendshipp", "👋 hello 🤗 muscular topp versee heree msgg for chattingg❤️🫠"]
+MESSAGES = ["Hiii muscularr guyy here for friendshipp", "hello handsomee toppp versee heree msgg for chattingg"]
 
 
 def load_dm_sent():

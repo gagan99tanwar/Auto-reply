@@ -143,10 +143,10 @@ async def dm_handler(event):
 # ============================== GROUP FLOW ==================================
 
 GROUP_MESSAGES = [
-    "Hello everyone 👋",
-    "Hope you're doing well!",
-    "Have a great day 😊",
-    "Just checking in.",
+    "Hello koii meri bubu dekhega pinkkyy msgg kro",
+    "khera ghusa rahi hun dekhne ke liye dmmm kro!",
+    "aao na thukai kardo marlo meri",
+    "koi mera channel join karega to usko me apne bubu dikhaungi😘😘🌚.",
 ]
 group_message_index = 0
 

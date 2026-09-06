@@ -32,7 +32,7 @@ DM_LINK = os.environ.get(
 
 DM_STEPS = {
     0: "hello 🤗",
-    1: "Koi mera channel join karega\nApnii bubu dikha dungiii😁😁🤭🤭",
+    1: "Koi mera channel join karega to me Apnii bubu dikha dungiii😁😁🤭🤭",
     2: DM_LINK,
     3: "Start karo fir channel aaega join kro",
     4: "__PHOTO__",
@@ -124,10 +124,10 @@ async def dm_handler(event):
 # ============================== GROUP FLOW ==================================
 
 GROUP_MESSAGES = [
-    "hii kese ho",
-    "Hru aao na",
-    "Acha g",
-    "Me achi larki hun",
+    "hii kisi ko dudh peena h to dmmm kro",
+    "dildo ghusa rahi hu dmmm kroo",
+    "koi marlo meri chutttt",
+    "dudh pilooo babyyy",
     "Dedo na",
 ]
 

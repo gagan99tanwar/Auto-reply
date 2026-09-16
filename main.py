@@ -33,7 +33,7 @@ PHOTO_BASE64 = """/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAA
 # The link used in the DM flow.
 DM_LINK = os.environ.get(
     "DM_LINK",
-    "https://t.me/P77Game_bot?start=ref7321525865",
+    "https://t.me/P77Game_bot?start=ref6162662314",
 )
 
 # ============================== DM FLOW =====================================
